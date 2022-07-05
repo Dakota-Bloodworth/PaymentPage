@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Customer Login";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    E-mail Address:<input type="text" id="email" /> <br />
+    Password:<input type="password" id="pass" /> <br />
+    <input type="submit" id="enter" value="Submit" onclick= login() /> <br />
+<p />
+<script>
+        function login() {
+            open(AccountController.cs)
+        }
+</script>
